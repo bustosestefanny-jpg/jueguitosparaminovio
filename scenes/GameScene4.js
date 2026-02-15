@@ -115,7 +115,7 @@ export default class GameScene4 extends Phaser.Scene {
 
   showFinalLetter() {
     const { width, height } = this.scale;
-    const mensajeLargo = "Para mi personita especial:\n\nLlegaste al final, pero esto es solo el inicio. En este poquito tiempo me has hecho inmensamente feliz. Gracias por cada risa y por elegirme.\n\nTe amo muchísimo. ¡Eres mi mejor premio! ❤️";
+    const mensajeLargo = "Para mi amor, Julian:\n\nLlegaste al final, pero esto es solo el inicio de todo lo que quiero \nllegar a vivir contigo.\n En este poquito tiempo me has hecho inmensamente feliz. Gracias por cada risa y por elegirme.\n\nTe amo muchísimo. ¡Eres mi mejor premio! ❤️";
 
     const overlay = this.add.rectangle(0, 0, width, height, 0x000000, 0.8).setOrigin(0).setDepth(100);
     
@@ -150,4 +150,5 @@ export default class GameScene4 extends Phaser.Scene {
 
     btn.on('pointerdown', () => this.scene.start('IntroScene'));
   }
+
 }
